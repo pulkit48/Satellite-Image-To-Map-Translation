@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy
+pillow
+matplotlib
+scipy
+tqdm
+opencv-python
+progress
+pillow
