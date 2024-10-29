@@ -24,8 +24,8 @@ from data.datasets import Maps
 from predict import predict_and_save
 
 parser = argparse.ArgumentParser(prog='top', description='Train Pix2Pix')
-parser.add_argument("--epochs", type=int, default=1, help="Number of epochs")
-parser.add_argument("--dataset", type=str, default="maps", help="Name of the dataset: ['facades', 'maps', 'cityscapes']")
+parser.add_argument("--epochs", type=int, default=200, help="Number of epochs")
+parser.add_argument("--dataset", type=str, default="maps", help="Name of the dataset: ['maps]")
 parser.add_argument("--batch_size", type=int, default=64, help="Size of the batches")
 parser.add_argument("--lr", type=float, default=0.0002, help="Adams learning rate")
 
